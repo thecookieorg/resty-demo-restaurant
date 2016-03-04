@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Facebook:</strong>
+  <%= @social.facebook %>
+</p>
+
+<p>
+  <strong>Twitter:</strong>
+  <%= @social.twitter %>
+</p>
+
+<p>
+  <strong>Instagram:</strong>
+  <%= @social.instagram %>
+</p>
+
+<p>
+  <strong>Youtube:</strong>
+  <%= @social.youtube %>
+</p>
+
+<%= link_to 'Edit', edit_social_path(@social) %> |
+<%= link_to 'Back', socials_path %>
